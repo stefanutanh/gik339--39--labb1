@@ -1,14 +1,12 @@
-// Variabel 1: Checkboxen
+
+
+// Uppgift 4: Skapa variabler för att hålla HTMLElement-objekt
+
+
 const checkbox = document.querySelector('input[type="checkbox"]');
-console.log(checkbox); 
+const textFields = document.getElementsByClassName('textfield');
+const button = document.getElementById('button');
+const contentDiv = document.querySelector('.content-div');
 
-// Variabel 2: Alla textfält
-const textfields = document.getElementsByClassName('textfield');
-console.log(textfields); 
-// Variabel 3: Knappen
-const button = document.getElementById('myButton');
-console.log(button);  
-// Variabel 4: Div-elementet
+// Uppgift 5: Skapa en fördefinierad funktion
 
-const divElement = document.querySelector('#myDiv');
-console.log(divElement); 

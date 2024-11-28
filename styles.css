@@ -8,7 +8,7 @@ body {
 
 main {
     padding: 2em;
-    max-width: 800px;
+    max-width: 50em;
     margin: 0 auto;
 }
 
@@ -18,3 +18,45 @@ h1 {
     margin-bottom: 3em;
 }
 
+.container {
+    background-color: #e9ecef;
+    padding: 2em;
+    border-radius: 0.8em;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1);
+    
+}
+.textfield {
+    width: 30%;
+    padding: 0.8em;
+    border: 0.1em solid #ced4da;
+    border-radius: 0.4em;
+    box-sizing: border-box;
+}
+
+.input-group {
+    padding: 0.3em;
+}
+.input-field {
+    padding: 0.3em;
+    
+}
+
+.content-div {
+    background-color: aquamarine;
+    width: 70%;
+    padding: 2em;
+    border-radius: 0.2em;
+}
+
+button {
+    padding: 0.8em;
+    margin: 1em;
+    background-color: #545454;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
