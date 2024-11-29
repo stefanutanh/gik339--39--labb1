@@ -1,7 +1,7 @@
 
 
-const checkbox = document.getElementById('checkbox');
-const textFields = document.querySelectorAll('.textfield');
+const checkbox = document.getElementById('checkBox');
+const textFields = document.querySelectorAll('.input-field');
 const button = document.getElementById('button');
 const contentDiv = document.querySelector('.content-div');
 
