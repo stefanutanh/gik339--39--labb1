@@ -5,9 +5,11 @@ const textFields = document.querySelectorAll('.input-field');
 const button = document.getElementById('button');
 const contentDiv = document.querySelector('.content-div');
 
+console.log(checkbox);
+
 function handleInput(e) {
     console.log(e);
-    if (e.target.name === 'content') {
+    if (e.target.name === 'color') {
         contentDiv.innerHTML = e.target.value;
     }
 }
