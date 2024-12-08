@@ -1,6 +1,6 @@
 
 
-const checkbox = document.getElementById('checkBox');
+const checkbox = document.getElementById('divStyle');
 const textFields = document.querySelectorAll('.input-field');
 const button = document.getElementById('button');
 const contentDiv = document.querySelector('.content-div');
@@ -8,11 +8,13 @@ const contentDiv = document.querySelector('.content-div');
 console.log(checkbox);
 
 function handleInput(e) {
-    console.log(e);
     if (e.target.name === 'color') {
+        contentDiv.style.backgroundColor = e.target.value;
+    } else if (e.target.name === 'content') {
         contentDiv.innerHTML = e.target.value;
     }
 }
+
 
 checkbox.addEventListener('change', function(){
 console.log("checkbox");
