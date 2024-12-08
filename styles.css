@@ -38,10 +38,11 @@ h1 {
 }
 
 .content-div {
-    background-color: aquamarine;
-    width: 70%;
-    padding: 2em;
-    border-radius: 0.2em;
+/*     background-color: aquamarine;
+ */    width: auto;
+    height: auto;
+    padding: 1em;
+    border: solid;
 }
 
 button {
@@ -55,5 +56,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #898888;
 }
